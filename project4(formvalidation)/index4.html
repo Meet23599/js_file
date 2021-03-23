@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>welcome to travel test</title>
+</head>
+
+<body>
+  <div id="success" class="alert alert-success alert-dismissible fade " role="alert">
+    <strong>successfull</strong> Your travaling request has been successfuly submited.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <div id="failure" class="alert alert-danger alert-dismissible fade " role="alert">
+    <strong>error</strong> Your travaling request has not been successfuly submited.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <div class="container">
+    <h1>my group travel test</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Username </label>
+        <input type="text" class="form-control is-invalid" id="name" placeholder="Enter Your name">
+        <small id="namevalid" class="form-text text-muted invalid-feedback">
+          Your Username must be 2-10 characters long and shoud not start with a number.
+        </small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your email </label>
+        <input type="text" class="form-control" id="email" placeholder="Enter Your email">
+        <small id="emialvalid" class="form-text text-muted invalid-feedback">
+          Your emailid must be a valid email.
+        </small>
+      </div>
+      <div class="form-group">
+        <label for="Car">Select Your Car</label>
+        <select class="form-control" id="Car">
+          <option>brazz</option>
+          <option>nission</option>
+          <option>audi</option>
+          <option>ford</option>
+          <option>Omani</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="Address">Enter Your address<address></address></label>
+        <textarea class="form-control" name="address" id="address" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Enter your  phone number</label>
+        <textarea class="form-control" name="phone" id="phone" rows="3"></textarea>
+        <small id="phonevalid" class="form-text text-muted invalid-feedback">
+          Your phone number must be 10 digit long .
+        </small>
+
+      </div>
+      <button id= "submit"class="btn.btn-primary">submit</button>
+    </form>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <script src="index41.js"></script>
+</body>
+</html>
